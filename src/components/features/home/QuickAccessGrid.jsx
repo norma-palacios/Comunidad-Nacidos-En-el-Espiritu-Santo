@@ -17,21 +17,21 @@ const accesosDefecto = [
   },
   {
     id: 2,
-    titulo: 'Galería',
-    descripcion: 'Revive los momentos especiales de nuestra comunidad reunida en oración.',
+    titulo: 'Actividades',
+    descripcion: 'Conoce nuestros próximos eventos, retiros y asambleas comunitarias.',
     icono: <Image size={24} />,
     colorIcono: 'text-[#E64A19]',
     fondoIcono: 'bg-[#E64A19]/10',
-    href: '/galeria',
+    href: '/eventos',
   },
   {
     id: 3,
     titulo: 'Ayuda Social',
-    descripcion: 'Conoce nuestros proyectos de servicio y cómo puedes contribuir al prójimo.',
+    descripcion: 'Conoce cómo contribuir y apoya nuestra misión de servicio y evangelización.',
     icono: <Heart size={24} />,
     colorIcono: 'text-[#FFD600]',
     fondoIcono: 'bg-[#FFD600]/10',
-    href: '/ayuda-social',
+    href: '/donar',
   },
 ];
 

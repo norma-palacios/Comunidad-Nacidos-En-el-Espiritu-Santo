@@ -43,7 +43,7 @@ export default function HeroSection({
           <Button variante="secondary" onClick={onPrimarioClick}>
             Conócenos
           </Button>
-          <Button variante="outline" onClick={onSecundarioClick}>
+          <Button variante="ghost-white" onClick={onSecundarioClick}>
             Ver Predicaciones
           </Button>
         </div>

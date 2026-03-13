@@ -61,9 +61,9 @@ defineFeature(feature, (test) => {
       expect(botones.some((b) => b.className.includes('bg-[#FFD600]'))).toBe(true);
     });
 
-    and('debe existir al menos un botón con borde visible', () => {
+    and('debe existir al menos un botón con fondo semitransparente', () => {
       const botones = screen.getAllByRole('button');
-      expect(botones.some((b) => b.className.includes('border-2'))).toBe(true);
+      expect(botones.some((b) => b.className.includes('bg-white/10'))).toBe(true);
     });
   });
 });

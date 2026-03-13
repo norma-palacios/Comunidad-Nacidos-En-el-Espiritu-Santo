@@ -23,4 +23,4 @@ Característica: Sección Hero (HeroSection)
     Dado que se renderiza la HeroSection
     Cuando inspecciono la sección
     Entonces debe existir al menos un botón con fondo dorado
-    Y debe existir al menos un botón con borde visible
+    Y debe existir al menos un botón con fondo semitransparente
