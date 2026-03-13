@@ -28,8 +28,8 @@ defineFeature(feature, (test) => {
     then('debe mostrar el acceso rápido a "Predicaciones"', () => {
       expect(screen.getByText('Predicaciones')).toBeInTheDocument();
     });
-    and('debe mostrar el acceso rápido a "Galería"', () => {
-      expect(screen.getByText('Galería')).toBeInTheDocument();
+    and('debe mostrar el acceso rápido a "Actividades"', () => {
+      expect(screen.getByText('Actividades')).toBeInTheDocument();
     });
     and('debe mostrar el acceso rápido a "Ayuda Social"', () => {
       expect(screen.getByText('Ayuda Social')).toBeInTheDocument();

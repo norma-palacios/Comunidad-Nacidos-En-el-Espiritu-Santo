@@ -5,9 +5,9 @@ import { Menu, X } from 'lucide-react';
 
 const enlacesNav = [
   { label: 'Inicio', href: '/' },
+  { label: 'Actividades', href: '/eventos' },
   { label: 'Predicaciones', href: '/predicaciones' },
   { label: 'Galería', href: '/galeria' },
-  { label: 'Ayuda Social', href: '/ayuda-social' },
   { label: 'Nosotros', href: '/nosotros' },
 ];
 

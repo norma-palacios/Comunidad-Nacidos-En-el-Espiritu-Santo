@@ -6,10 +6,11 @@
  */
 
 const estilosVariante = {
-  primary:  'bg-[#880E4F] text-white font-bold hover:bg-[#5C0324] shadow-md',
-  secondary: 'bg-[#FFD600] text-[#5C0324] font-bold hover:bg-yellow-400 shadow-md',
-  outline:  'bg-transparent border-2 border-[#880E4F] text-[#880E4F] hover:bg-[#880E4F]/10',
-  ghost:    'bg-transparent text-[#880E4F] hover:bg-[#880E4F]/10',
+  primary:     'bg-[#880E4F] text-white font-bold hover:bg-[#5C0324] shadow-md',
+  secondary:   'bg-[#FFD600] text-[#5C0324] font-bold hover:bg-yellow-400 shadow-md',
+  outline:     'bg-transparent border-2 border-[#880E4F] text-[#880E4F] hover:bg-[#880E4F]/10',
+  ghost:       'bg-transparent text-[#880E4F] hover:bg-[#880E4F]/10',
+  'ghost-white': 'bg-white/10 text-white font-bold hover:bg-[#FFD600] hover:text-[#5C0324]',
 };
 
 export default function Button({

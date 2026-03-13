@@ -8,7 +8,7 @@ Característica: Sección de Accesos Rápidos (QuickAccessGrid)
     Dado que se renderiza el QuickAccessGrid con los accesos predeterminados
     Cuando inspecciono la sección
     Entonces debe mostrar la tarjeta "Predicaciones"
-    Y debe mostrar la tarjeta "Galería"
+    Y debe mostrar la tarjeta "Actividades"
     Y debe mostrar la tarjeta "Ayuda Social"
 
   Escenario: El contenedor tiene clase de grilla

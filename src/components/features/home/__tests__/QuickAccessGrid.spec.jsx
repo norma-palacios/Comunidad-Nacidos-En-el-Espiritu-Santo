@@ -15,8 +15,8 @@ defineFeature(feature, (test) => {
     then('debe mostrar la tarjeta "Predicaciones"', () => {
       expect(screen.getByText('Predicaciones')).toBeInTheDocument();
     });
-    and('debe mostrar la tarjeta "Galería"', () => {
-      expect(screen.getByText('Galería')).toBeInTheDocument();
+    and('debe mostrar la tarjeta "Actividades"', () => {
+      expect(screen.getByText('Actividades')).toBeInTheDocument();
     });
     and('debe mostrar la tarjeta "Ayuda Social"', () => {
       expect(screen.getByText('Ayuda Social')).toBeInTheDocument();

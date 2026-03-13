@@ -13,7 +13,7 @@ Característica: Página Principal (HomePage)
     Dado que cargo la página de inicio
     Cuando inspecciono el contenido
     Entonces debe mostrar el acceso rápido a "Predicaciones"
-    Y debe mostrar el acceso rápido a "Galería"
+    Y debe mostrar el acceso rápido a "Actividades"
     Y debe mostrar el acceso rápido a "Ayuda Social"
 
   Escenario: Renderizado del FounderSection en la página
